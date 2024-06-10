@@ -162,6 +162,7 @@ public class VistaUsuario extends JFrame{
 		content.setBounds(211, 0, Constantes.WIDTH_PANEL_OPCIONES, Constantes.HEIGHT_PANEL_OPCIONES);
 		content.setLayout(null);
 		backGround.add(content);
+
 		
 		HabitacionesDisponibles habitacionesDisponibles = new HabitacionesDisponibles(idUsuario, true, false);
 
